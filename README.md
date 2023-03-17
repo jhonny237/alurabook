@@ -26,5 +26,9 @@ Pagina feita com a proposta mobile-firt
 
 
 ⬜HTML
+
+
 ⬜CSS
+
+
 ⬜JavaScript
