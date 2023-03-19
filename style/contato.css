@@ -1,0 +1,45 @@
+.email__box::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    text-align: center;
+    background: url("../assets/IMG/Email.svg") no-repeat
+}
+
+.email__box{
+    background-color: transparent;
+    width: 100%;
+    border-radius: 2em;
+    padding: 1em;
+    border: 1px solid var(--azul);
+    text-align: center;
+    
+
+}
+
+.contato{
+    font-family: var(--fonte-principal);
+    padding: 1em 2em;
+    margin-right: 2em;
+}
+
+.contato__titulo, 
+.contato__texto{
+    color: var(--azul);
+}
+
+.contato__titulo{
+    font-weight: 700;
+}
+
+.contato__texto{
+    font-weight: 300;
+    margin: 1em 0em;
+}
+.rodape{
+    background: var(--azul-texto);
+    padding: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--branco);
+}
