@@ -4,14 +4,36 @@ Pagina feita com a proposta mobile-firt
 alurabook-tawny.vercel.app
 
 
-
-
-
-
-
-
 MOBILE
-https://user-images.githubusercontent.com/103138394/227663503-de6a8a9f-aedf-42ec-b5ed-acadc812a411.mp4
+
+
+
+
+
+https://user-images.githubusercontent.com/103138394/227663728-6c889f06-2497-4a3f-ac7f-f22dfb90d328.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -24,7 +46,15 @@ https://user-images.githubusercontent.com/103138394/227663503-de6a8a9f-aedf-42ec
 
 
 TABLET
-https://user-images.githubusercontent.com/103138394/227663620-215154e6-02fd-4db5-8a7a-636560c486a9.mp4
+
+
+https://user-images.githubusercontent.com/103138394/227663711-f0b5a522-2eda-435a-89b7-1f9bd37335e2.mp4
+
+
+
+
+
+
 
 
 
