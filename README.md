@@ -6,23 +6,25 @@ alurabook-tawny.vercel.app
 
 
 
-![b7c195db943a31e89bddf4d1f07e2614](https://user-images.githubusercontent.com/103138394/225783379-fcdbd08a-094f-48aa-bf12-1da0a1736eb8.gif)
+
+
+
+
+MOBILE
+https://user-images.githubusercontent.com/103138394/227663503-de6a8a9f-aedf-42ec-b5ed-acadc812a411.mp4
 
 
 
 
 
-![image](https://user-images.githubusercontent.com/103138394/225783423-b7404c16-8b4d-4221-8875-71c3cf763881.png)
 
 
 
 
 
 
-
-![image](https://user-images.githubusercontent.com/103138394/225783474-9ee9c008-0e83-41d7-b1f0-e06be9fc465e.png)
-
-
+TABLET
+https://user-images.githubusercontent.com/103138394/227663620-215154e6-02fd-4db5-8a7a-636560c486a9.mp4
 
 
 
