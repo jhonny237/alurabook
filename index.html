@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resset.css">
     <title>Alura Books</title>
 </head>
@@ -37,12 +37,52 @@
                 </li>
              </ul>
 
-            <img src="assets/IMG/Logo.svg" alt="logo alura books">
+            <div class="header__tablet">
+                <img  src="assets/IMG/Logo.svg" alt="logo alura books">
+                <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
+            </div>
         </div>
+
+
+        <ul class="navbar">
+            <input id="opçoes__menu" class="opçoes__botao" type="checkbox">
+            <label for="opçoes__menu">
+                <li class="navbar__item">CATEGORIAS <b id="triangulo">▼</b></li>
+            </label>
+            
+            <ul class="lista-menu">
+            
+                <li
+                    class="lista__menu__conteudo"> <a href="#" class="lista-menu__link">programação</a>
+                </li>
+                <li
+                    class="lista__menu__conteudo"> <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li
+                    class="lista__menu__conteudo"> <a href="#" class="lista-menu__link">Infrastrutura</a>
+                </li>
+                <li
+                    class="lista__menu__conteudo"> <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li
+                    class="lista__menu__conteudo"> <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+             </ul>
+
+            <li class="navbar__item">
+                <a href="#">FAVORITOS</a>
+            </li>
+
+            <li class="navbar__item">
+                <a href="#">MINHA ESTANTE</a>
+            </li>
+        </ul>
+
+        
 
         <div class="container">
 
-            <a href="#"> <img src="assets/IMG/Favoritos.svg" alt="meus favoritos" class="container__imagem"></a>
+            <a href="#"> <img src="assets/IMG/Favoritos.svg" alt="meus favoritos" class="container__imagem-transparente"></a>
             <a href="#"> <img src="assets/IMG/Compras.svg" alt="minhas compras" class="container__imagem"></a>
             <a href="#"> <img src="assets/IMG/Usuario.svg" alt="meu perfil" class="container__imagem"></a>
 
@@ -78,8 +118,8 @@
     
   
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev1"></div>
-    <div class="swiper-button-next2"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   
     
     <div class="card">
@@ -127,10 +167,14 @@
           <div class="swiper-slide"><img src="assets/IMG/Liderança.svg" alt="Liderança"></div>
           ...
         </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+  
     </section>
 
 
-    <div class="card">
+    <div class="card1">
         <!--primeira linha-->
         <div class="card__descriçao">
             <!--primeira coluna-->
@@ -160,48 +204,62 @@
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
+            <div class="coluna1">
+                <li class="lista__item">
+                    <a class="topicos__link" href="#">Android</a>
+                </li>
 
-            <li class="lista__item">
-                <a class="topicos__link" href="#">Android</a>
-            </li>
+                <li class="lista__item"></li>
+                    <a class="topicos__link"  href="#">Marketing Digital</a>
+                </li>
 
-            <li class="lista__item"></li>
-                <a class="topicos__link"  href="#">Marketing Digital</a>
-            </li>
+                <li class="lista__item">
+                    <a class="topicos__link" href="#">Agile</a>
+                </li>
 
-            <li class="lista__item">
-                <a class="topicos__link" href="#">Agile</a>
-            </li>
+                <li class="lista__item"></li>        
+                    <a class="topicos__link"  href="#">Startups</a>
+                </li>
+             </div>
 
-            <li class="lista__item"></li>        
-                <a class="topicos__link"  href="#">Startups</a>
-            </li>
+            <div class="coluna2">
+                <li class="lista__item"></li>
+                    <a class="topicos__link"  href="#">HTML & CSS</a>
+                </li>
 
-            <li class="lista__item"></li>
-                <a class="topicos__link"  href="#">HTML & CSS</a>
-            </li>
+                <li class="lista__item"></li>
+                    <a class="topicos__link"  href="#">Python</a>
+                </li>
 
-            <li class="lista__item"></li>
-                <a class="topicos__link"  href="#">Python</a>
-            </li>
+                <li class="lista__item"></li>
+                    <a class="topicos__link"  href="#">OO</a>
+                </li>
 
-            <li class="lista__item"></li>
-                <a class="topicos__link"  href="#">OO</a>
-            </li>
-
-            <li class="lista__item"></li>
-                <a class="topicos__link"  href="#">Java</a>
-            </li>
+                <li class="lista__item"></li>
+                    <a class="topicos__link"  href="#">Java</a>
+                </li>
+            </div>
         </ul>
     
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="container__texto">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input placeholder="Cadastre seu e-mail" class="email__box" type="email">
         
     </section>
+
+    <footer class="footer">
+        
+    </footer>
+   
+
+               
+
+      
 
     <footer class="rodape">
         <p>Desenvolvido por João Pedro ©</p>

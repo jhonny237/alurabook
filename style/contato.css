@@ -43,3 +43,29 @@
     font-weight: bold;
     color: var(--branco);
 }
+
+
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        width: auto;
+        display: flex;
+        height: 15em;
+    }
+    
+    .email__box{
+        width: 50%;
+        height: 10%;
+    }
+
+    .container__texto{
+        display: flex;
+        flex-direction: column; 
+        font-size: 1.7em;
+        font-weight: 300;
+    }
+        
+    .rodape{
+        display: none;
+    }
+}
